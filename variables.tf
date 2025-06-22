@@ -8,11 +8,11 @@ variable "web_server" {
 
 
 variable "ubuntu_image_id" {
-  default = "81d47fb8-8016-4327-bead-c75abb496b0b"
+  default = "4b1824e4-9805-4aec-86d6-c48ac7372910"
 }
 
 variable "centos_image_id" {
-  default = "5263a683-8fdd-4aa1-8bb5-9209d9a1b116"
+  default = "3db25435-376b-4ceb-81ca-03d4c48e21d7"
 }
 
 
@@ -22,6 +22,26 @@ variable "flavor_m1_small" {
 
 variable "key_pair" {
   default = "test"
+  
+}
+
+
+variable "pki_network_name" {
+  default = "pki_network"
+  
+}
+variable "pki_subnet_name" {
+  default = "pki_subnet"
+  
+}
+variable "servers_subnet_name" {
+  default = "servers_subnet"
+  
+}
+
+
+variable "servers_network_name" {
+  default = "servers_network"
   
 }
 
